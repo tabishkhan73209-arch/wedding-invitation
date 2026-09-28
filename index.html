@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+
+    <meta
+        name="description"
+        content="A beautiful Islamic wedding invitation"
+    />
+
+    <title>Ishaan & Anaya | Wedding Invitation</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- =========================================================
+     OPENING DOOR
+========================================================= -->
+
+<section
+    id="doorScreen"
+    class="door-screen"
+    aria-label="Open wedding invitation"
+>
+
+    <div class="door-glow"></div>
+
+    <div class="door-frame">
+
+        <div class="door-half door-left">
+            <div class="door-ornament ornament-one"></div>
+            <div class="door-ornament ornament-two"></div>
+            <div class="door-ornament ornament-three"></div>
+        </div>
+
+        <div class="door-half door-right">
+            <div class="door-ornament ornament-one"></div>
+            <div class="door-ornament ornament-two"></div>
+            <div class="door-ornament ornament-three"></div>
+        </div>
+
+        <div class="door-center-line"></div>
+
+        <div class="door-bow">
+            <span class="bow-ribbon left"></span>
+            <span class="bow-ribbon right"></span>
+            <span class="bow-knot">✦</span>
+        </div>
+
+    </div>
+
+    <button
+        id="openInvitation"
+        class="tap-open"
+        type="button"
+    >
+        <span>Tap to open</span>
+        <small>بِسْمِ اللّٰهِ</small>
+    </button>
+
+</section>
+
+
+<!-- =========================================================
+     MAIN WEBSITE
+========================================================= -->
+
+<main id="weddingSite" class="wedding-site">
+
+    <!-- MUSIC -->
+    <audio
+        id="weddingMusic"
+        src="assets/music.mp3"
+        loop
+        preload="none"
+    ></audio>
+
+    <button
+        id="musicButton"
+        class="music-button"
+        type="button"
+        aria-label="Toggle music"
+    >
+        ♪
+    </button>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero section-dark">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <!-- Islamic opening -->
+            <div class="bismillah-block reveal">
+
+                <div class="arabic">
+                    بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ
+                </div>
+
+                <div class="english-bismillah">
+                    In the name of Allah, the Most Beneficent,
+                    the Most Merciful
+                </div>
+
+            </div>
+
+            <div class="tiny-heart">♥</div>
+
+            <p class="eyebrow reveal">
+                We're getting married
+            </p>
+
+            <div class="hero-line">
+                <span></span>
+                <i>♥</i>
+                <span></span>
+            </div>
+
+            <h1
+                id="groomNameHero"
+                class="script-name reveal"
+            >
+                Ishaan
+            </h1>
+
+            <p
+                id="groomParentsHero"
+                class="family-text reveal"
+            >
+                Son of Mr. & Mrs. Malhotra
+            </p>
+
+            <p
+                id="groomQualification"
+                class="small-info reveal"
+            >
+                M.Tech<br>
+                Software Engineer
+            </p>
+
+            <div class="and-symbol">&</div>
+
+            <h1
+                id="brideNameHero"
+                class="script-name reveal"
+            >
+                Anaya
+            </h1>
+
+            <p
+                id="brideParentsHero"
+                class="family-text reveal"
+            >
+                Daughter of Mr. & Mrs. Peter
+            </p>
+
+            <p
+                id="brideQualification"
+                class="small-info reveal"
+            >
+                M.Com, CA<br>
+                Chartered Accountant
+            </p>
+
+            <div class="scroll-down">
+                <span>SCROLL</span>
+                <b>⌄</b>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =====================================================
+         WELCOME
+    ====================================================== -->
+
+    <section class="welcome section">
+
+        <div class="section-inner reveal">
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <p class="welcome-text">
+                We are honored to welcome you to the
+                wedding ceremony of
+                <strong id="welcomeNames">Ishaan & Anaya</strong>
+                as they begin their journey together
+                in faith and love.
+                <br><br>
+                We thank you for being part of this
+                blessed occasion.
+                <span class="heart">♥</span>
+            </p>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SCRATCH REVEAL
+    ====================================================== -->
+
+    <section class="scratch-section section">
+
+        <div class="section-inner reveal">
+
+            <h2 class="script-heading">
+                Scratch to Reveal
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <div
+                id="scratchCard"
+                class="scratch-card"
+            >
+
+                <div class="scratch-message">
+
+                    <div class="scratch-small">
+                        A little blessing for you
+                    </div>
+
+                    <h3>
+                        Dua for the Couple
+                    </h3>
+
+                    <p>
+                        May Allah bless your marriage
+                        with love, mercy, peace and
+                        endless barakah.
+                    </p>
+
+                    <div class="arabic-dua">
+                        بَارَكَ اللّٰهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا
+                    </div>
+
+                </div>
+
+                <canvas id="scratchCanvas"></canvas>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         DATE
+    ====================================================== -->
+
+    <section class="date-section section">
+
+        <div class="section-inner reveal">
+
+            <h2 class="script-heading">
+                Our forever begins
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <div class="heart-date">
+
+                <span class="date-label">
+                    You're Invited!
+                </span>
+
+                <strong id="weddingDateText">
+                    December 31, 2026
+                </strong>
+
+                <span id="weddingDayText">
+                    Thursday
+                </span>
+
+                <span id="weddingTimeText">
+                    10:30 AM
+                </span>
+
+            </div>
+
+            <button
+                id="saveDateButton"
+                class="brown-button"
+                type="button"
+            >
+                ♡ &nbsp; SAVE THE DATE
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         IMAGE GALLERY
+    ====================================================== -->
+
+    <section class="gallery-section section">
+
+        <div class="section-inner reveal">
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <div class="gallery">
+
+                <div class="gallery-card">
+                    <img
+                        src="assets/gallery-1.jpg"
+                        alt="Wedding memory"
+                    />
+                </div>
+
+                <div class="gallery-card">
+                    <img
+                        src="assets/gallery-2.jpg"
+                        alt="Wedding memory"
+                    />
+                </div>
+
+                <div class="gallery-card">
+                    <img
+                        src="assets/gallery-3.jpg"
+                        alt="Wedding memory"
+                    />
+                </div>
+
+                <div class="gallery-card">
+                    <img
+                        src="assets/gallery-4.jpg"
+                        alt="Wedding memory"
+                    />
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         COUNTDOWN
+    ====================================================== -->
+
+    <section class="countdown-section section">
+
+        <div class="section-inner reveal">
+
+            <h2 class="script-heading">
+                Counting Down to Forever
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <div class="countdown">
+
+                <div class="count-box">
+                    <strong id="days">00</strong>
+                    <span>DAYS</span>
+                </div>
+
+                <div class="count-box">
+                    <strong id="hours">00</strong>
+                    <span>HOURS</span>
+                </div>
+
+                <div class="count-box">
+                    <strong id="minutes">00</strong>
+                    <span>MINUTES</span>
+                </div>
+
+                <div class="count-box">
+                    <strong id="seconds">00</strong>
+                    <span>SECONDS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PROGRAM TIMELINE
+    ====================================================== -->
+
+    <section class="timeline-section section">
+
+        <div class="section-inner reveal">
+
+            <div class="section-icon">
+                ◷
+            </div>
+
+            <h2 class="script-heading">
+                Program Timeline
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <h3>
+                        Guest Arrival
+                    </h3>
+
+                    <time id="guestArrivalTime">
+                        Dec 31, 2026, 10:00 AM
+                    </time>
+
+                    <p>
+                        We welcome you. ♥
+                    </p>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <h3>
+                        Wedding Ceremony
+                    </h3>
+
+                    <time id="ceremonyTime">
+                        Dec 31, 2026, 10:30 AM
+                    </time>
+
+                    <p>
+                        Your presence means a lot!
+                    </p>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <h3>
+                        Reception
+                    </h3>
+
+                    <time id="receptionTime">
+                        Jan 2, 2027, 7:30 PM
+                    </time>
+
+                    <p>
+                        Dinner, celebration & memories.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         VENUE
+    ====================================================== -->
+
+    <section class="venue-section section">
+
+        <div class="section-inner reveal">
+
+            <div class="section-icon">
+                ♧
+            </div>
+
+            <h2 class="script-heading">
+                Venue
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <h3
+                id="venueName"
+                class="venue-name"
+            >
+                Grand Palace Hall
+            </h3>
+
+            <p
+                id="venueAddress"
+                class="venue-address"
+            >
+                City Centre, London
+            </p>
+
+            <div class="map-container">
+
+                <iframe
+                    id="mapFrame"
+                    title="Wedding venue map"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps?q=London&output=embed"
+                ></iframe>
+
+            </div>
+
+            <a
+                id="mapButton"
+                class="brown-button inline-button"
+                href="https://www.google.com/maps"
+                target="_blank"
+                rel="noopener"
+            >
+                View on Google Maps
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         DRESS CODE
+    ====================================================== -->
+
+    <section class="dress-section section">
+
+        <div class="section-inner reveal">
+
+            <div class="section-icon">
+                ♡
+            </div>
+
+            <h2 class="script-heading">
+                Dress Code
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <div class="dress-block">
+
+                <h3>
+                    Women
+                </h3>
+
+                <div class="mini-line"></div>
+
+                <p>
+                    Elegant formal attire in pastel
+                    or jewel tones
+                </p>
+
+            </div>
+
+
+            <div class="dress-block">
+
+                <h3>
+                    Men
+                </h3>
+
+                <div class="mini-line"></div>
+
+                <p>
+                    Suit or traditional formal wear
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PRE-WEDDING EVENTS
+    ====================================================== -->
+
+    <section class="events-section section">
+
+        <div class="section-inner reveal">
+
+            <div class="section-icon">
+                ✧
+            </div>
+
+            <h2 class="script-heading">
+                Pre-Wedding Events
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+
+            <div class="event-card">
+
+                <h3>
+                    Mahendi
+                </h3>
+
+                <p id="mehendiDate">
+                    Dec 29, 2026, 8:30 PM
+                </p>
+
+                <span id="mehendiVenue">
+                    At Bride's House
+                </span>
+
+            </div>
+
+
+            <div class="event-card">
+
+                <h3>
+                    Haldi
+                </h3>
+
+                <p id="haldiDate">
+                    Dec 30, 2026, 8:00 PM
+                </p>
+
+                <span id="haldiVenue">
+                    At Groom's House
+                </span>
+
+            </div>
+
+
+            <div class="event-card">
+
+                <h3>
+                    Nikah
+                </h3>
+
+                <p id="nikahDate">
+                    Dec 31, 2026, 10:30 AM
+                </p>
+
+                <span id="nikahVenue">
+                    Wedding Venue
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TRANSPORTATION
+    ====================================================== -->
+
+    <section class="transport-section section">
+
+        <div class="section-inner reveal">
+
+            <div class="section-icon">
+                🚗
+            </div>
+
+            <h2 class="script-heading">
+                Transportation
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+            <p class="transport-text">
+                Transportation service will be available
+                from the designated pickup point
+                directly to the venue.
+            </p>
+
+            <div class="pickup-box">
+
+                <strong>
+                    Pickup Point
+                </strong>
+
+                <span id="pickupPoint">
+                    Central City Pickup Point
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         RSVP
+    ====================================================== -->
+
+    <section class="rsvp-section section">
+
+        <div class="section-inner reveal">
+
+            <div class="section-icon">
+                ✉
+            </div>
+
+            <h2 class="script-heading">
+                RSVP
+            </h2>
+
+            <div class="ornament-divider">
+                <span></span>
+                <b>♥</b>
+                <span></span>
+            </div>
+
+
+            <form id="rsvpForm">
+
+                <label for="guestName">
+                    Your Name <span>*</span>
+                </label>
+
+                <input
+                    id="guestName"
+                    name="name"
+                    type="text"
+                    placeholder="Your full name"
+                    required
+                />
+
+
+                <label for="attendance">
+                    Will you be attending? <span>*</span>
+                </label>
+
+                <select
+                    id="attendance"
+                    name="attendance"
+                    required
+                >
+
+                    <option value="">
+                        Select...
+                    </option>
+
+                    <option value="yes">
+                        Yes, I'll be there ♥
+                    </option>
+
+                    <option value="no">
+                        Sorry, I can't attend
+                    </option>
+
+                </select>
+
+
+                <label for="guestMessage">
+                    Your Message
+                </label>
+
+                <textarea
+                    id="guestMessage"
+                    name="message"
+                    placeholder="Write your wishes..."
+                ></textarea>
+
+
+                <button
+                    type="submit"
+                    class="brown-button submit-button"
+                >
+                    Send Message
+                </button>
+
+            </form>
+
+            <div
+                id="rsvpSuccess"
+                class="rsvp-success"
+            >
+                Thank you for your response. ♥
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-inner">
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bismillah">
+                بِسْمِ اللّٰهِ
+            </div>
+
+            <h2>
+                We can't wait to celebrate
+                <br>
+                with you
+            </h2>
+
+            <p>
+                With love, prayers & blessings
+            </p>
+
+            <div class="footer-heart">
+                ♥
+            </div>
+
+        </div>
+
+    </footer>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
